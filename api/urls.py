@@ -24,7 +24,6 @@ urlpatterns = [
     path('patient-sonar-newB/',PatientLoginViewSet.as_view(), name='sonar-create-newB'),
     path('patient-sonar-newB2/',PatientLoginViewSet.as_view(), name='sonar-create-newB2'),
     path('patient-sonar-newB3/',PatientLoginViewSet.as_view(), name='sonar-create-newB3'),
-    path('patient-sonar-newB4/',PatientLoginViewSet.as_view(), name='sonar-create-newB4'),
 #     # path('appointment/',AppointmentViewSet.as_view(),  name='appointment'),
 #     # path("prescription/",PrescriptionViewSet.as_view(),name="prescription"),
 #     # path('medicalrecord/', MedicalRecordViewSet.as_view(), name='medicalrecord'),
