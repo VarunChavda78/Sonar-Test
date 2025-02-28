@@ -20,6 +20,7 @@ urlpatterns = [
     path('doctors-login/',DoctorLoginViewSet.as_view(), name='doctor-login'),
     path('patient-signup/',PatientRegisterViewSet.as_view(), name='patient-create'),
     path('patient-login/',PatientLoginViewSet.as_view(), name='patient-create'),
+    path('patient-sonar/',PatientLoginViewSet.as_view(), name='sonar-create'),
 #     # path('appointment/',AppointmentViewSet.as_view(),  name='appointment'),
 #     # path("prescription/",PrescriptionViewSet.as_view(),name="prescription"),
 #     # path('medicalrecord/', MedicalRecordViewSet.as_view(), name='medicalrecord'),
