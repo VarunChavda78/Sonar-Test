@@ -18,4 +18,6 @@ jobs:
           docker run --rm \
             -e SONAR_HOST_URL="${{ secrets.SONAR_HOST_URL }}" \
             -e SONAR_LOGIN="${{ secrets.SONAR_TOKEN }}" \
-            -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli
+            -v "$(pwd):/usr/src" \
+            -v "$(pwd)/sonar-project.properties:/usr/src/sonar-project.properties" \
+            sonarsource/sonar-scanner-cli
